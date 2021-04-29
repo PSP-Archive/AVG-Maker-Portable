@@ -1,0 +1,4 @@
+ENTER: m_allocator()
+00001 nge_timer.c(00016)::??                     malloc            :         40 bytes     
+                                                                 OK:   098A7C70 (hash: 1991)
+EXIT : m_allocator()

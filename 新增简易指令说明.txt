@@ -1,0 +1,152 @@
+
+AMPv0.72新增简易指令:
+
+--===============
+
+<draw> 函数组
+
+功能:显示图像
+
+--===============
+
+drawbgA(file,type)
+drawbgB(file,type)
+
+drawfgA(file,type)
+drawfgB(file,type)
+drawfgC(file,type)
+drawfgD(file,type)
+drawfgE(file,type)
+drawfgF(file,type)
+
+drawtfgA(file,type)
+drawtfgB(file,type)
+drawtfgC(file,type)
+drawtfgD(file,type)
+drawtfgE(file,type)
+drawtfgF(file,type)
+
+drawbox(file,type)
+drawnm(nm,type)	-- 显示名字
+drawtex(tx)	-- 显示对话
+
+drawfind()	-- 进入调查模块
+drawload()	-- 进入读档模块
+
+
+--===============
+
+<turn> 函数组
+
+功能:设置效果
+
+--===============
+
+turnbgA(type,timeticks)
+turnbgB(type,timeticks)
+
+turnfgA(type,timeticks)
+turnfgB(type,timeticks)
+turnfgC(type,timeticks)
+turnfgD(type,timeticks)
+turnfgE(type,timeticks)
+turnfgF(type,timeticks)
+
+turntfgA(type,timeticks)
+turntfgB(type,timeticks)
+turntfgC(type,timeticks)
+turntfgD(type,timeticks)
+turntfgE(type,timeticks)
+turntfgF(type,timeticks)
+
+turnbox(type,timeticks)
+turntex(type,timeticks)
+turnnm(type,timeticks)
+
+
+--===============
+
+<kill> 函数组
+
+功能:删除数据
+
+--===============
+
+killbgA()
+killbgB()
+
+killfgA()
+killfgB()
+killfgC()
+killfgD()
+killfgE()
+killfgF()
+
+killtfgA()
+killtfgB()
+killtfgC()
+killtfgD()
+killtfgE()
+killtfgF()
+
+killbox()
+killtex()
+killnm()
+
+
+--===============
+
+<set> 函数组
+
+功能:设置坐标
+
+--===============
+
+setbgA(dx,dy)
+setbgB(dx,dy)
+
+setfgA(dx,dy)
+setfgB(dx,dy)
+setfgC(dx,dy)
+setfgD(dx,dy)
+setfgE(dx,dy)
+setfgF(dx,dy)
+
+settfgA(dx,dy)
+settfgB(dx,dy)
+settfgC(dx,dy)
+settfgD(dx,dy)
+settfgE(dx,dy)
+settfgF(dx,dy)
+
+setbox(dx,dy)
+setnm(dx,dy)
+settex(dx,dy)
+
+
+--===============
+
+<SEL> 函数组
+
+功能:造分支选项
+
+--===============
+
+SEL2("分支一","分支二",*event01,*event02)
+SEL3("分支一","分支二","分支三",*event01,*event02,*event03)
+SEL4("分支一","分支二","分支三","分支四",*event01,*event02,*event03,*event04)
+
+
+
+--===================================================
+
+关于 type 的值:
+AMNULL		-- 删除效果或没效果
+AMFIN		-- 淡入
+AMFOUT		-- 淡出
+AMSHAKE		-- 抖动
+AMTST1		-- 遮片过渡
+AMTST2		-- 遮片过渡
+
+--===================================================
+
